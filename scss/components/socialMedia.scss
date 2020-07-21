@@ -1,0 +1,64 @@
+//variables
+$basic-dark-color: #212121;
+$basic-light-color: #fff;
+$fb-color: #24292e;
+$insta: #d7564b;
+$in: #0077b5;
+$border-radius: 5px;
+$font-size: 15px;
+.socialMedia {
+    width: 100vw;
+    .effect {
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        a {
+          text-decoration: none !important;
+          color: $basic-light-color;
+          width: 30px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: $border-radius;
+          margin-right: 30px;
+          font-size: $font-size;
+          overflow: hidden;
+          position: relative;
+          
+          i {
+            position: relative;
+            z-index: 3;
+          }
+          
+          &.fb {
+            background-color: $fb-color;
+          }
+          
+          &.insta {
+            background-color: $insta;
+          }
+          
+          &.in {
+            background-color: $in;
+            margin-right: 0;
+          }
+        }
+    }
+      }
+      
+      .effect.jaques {
+        
+        a {
+          transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+          
+          &:hover {
+            border-radius: 50%;
+          }
+        }
+      }
+      
+}
+

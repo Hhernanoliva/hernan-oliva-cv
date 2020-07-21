@@ -1,0 +1,34 @@
+.socialMedia {
+  width: 100vw; }
+  .socialMedia .effect .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; }
+    .socialMedia .effect .buttons a {
+      text-decoration: none !important;
+      color: #fff;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      margin-right: 30px;
+      font-size: 15px;
+      overflow: hidden;
+      position: relative; }
+      .socialMedia .effect .buttons a i {
+        position: relative;
+        z-index: 3; }
+      .socialMedia .effect .buttons a.fb {
+        background-color: #24292e; }
+      .socialMedia .effect .buttons a.insta {
+        background-color: #d7564b; }
+      .socialMedia .effect .buttons a.in {
+        background-color: #0077b5;
+        margin-right: 0; }
+  .socialMedia .effect.jaques a {
+    transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s; }
+    .socialMedia .effect.jaques a:hover {
+      border-radius: 50%; }
