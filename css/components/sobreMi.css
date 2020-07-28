@@ -13,45 +13,47 @@
   box-sizing: border-box;
   overflow: hidden; }
   .modal .modal-header .title {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold; }
-  .modal .modal-header .close-button {
-    cursor: pointer;
+  .modal .modal-header button {
+    font-size: 1.3rem;
+    font-weight: bold;
     border: none;
     outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold; }
+    padding: 2px 5px;
+    color: #CF4D69;
+    cursor: pointer; }
   .modal .modal-body {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 0 0 10px 0;
     background-color: #76BE8E; }
     .modal .modal-body .container-img {
-      max-width: 130px; }
+      margin-top: 9px;
+      max-width: 128px; }
       .modal .modal-body .container-img img {
         width: 100%; }
     .modal .modal-body p {
       margin: 0 10px;
       color: #f2eff5;
       font-family: 'Poppins', sans-serif;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       text-shadow: 0.5px 0.5px 5px rgba(29, 44, 30, 0.63); }
 
 .modal.active {
   transform: translate(-50%, -50%) scale(1); }
 
 .modal-header {
-  padding: 10px 15px;
+  padding: 2px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
   color: #CF4D69;
   font-family: 'Poppins', sans-serif;
-  font-size: 2.7rem;
+  font-size: 1rem;
   text-shadow: 0.2px 0.2px 1px #2e0013; }
 
 #overlay {
@@ -67,4 +69,5 @@
 
 #overlay.active {
   opacity: 1;
-  pointer-events: all; }
+  pointer-events: all;
+  z-index: 2; }

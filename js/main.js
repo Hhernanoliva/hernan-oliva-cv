@@ -1,7 +1,10 @@
 // ** Loader **
-window.addEventListener("load", function () {
+
+
+
+/*window.addEventListener("load", function () {
   document.getElementById("loader").classList.toggle("loader2");
-});
+});*/
 
 
 
@@ -114,6 +117,8 @@ function closeModal(modal) {
 
 // Modal para Slider
 
+
+
 function toggleSlider() {
   var blur = document.getElementById('blur');
   blur.classList.toggle('activePopup')
@@ -122,9 +127,9 @@ function toggleSlider() {
 };
 
 
-document.getElementById('close-btn').addEventListener('click', function () {
+/*document.getElementById('close-btn').addEventListener('click', function () {
   document.getElementById("proyectos").click();
-});
+});*/
 
 
 /*function closeProyectos() {

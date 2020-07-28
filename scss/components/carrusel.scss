@@ -3,7 +3,7 @@ position: fixed;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) scale(0);
-transition: 400ms ease-in-out;
+transition: 1800ms ease-in-out;
 border: 1px solid black;
 border-radius: 10px;
 z-index: 10;
@@ -14,10 +14,18 @@ box-sizing: border-box;
 overflow: hidden;
 visibility: hidden;
 opacity: 0;
-
-.popslider-header .title {
-  font-size: 1.2rem;
-  font-weight: bold;
+.popslider-header{
+ display: flex;
+ justify-content: flex-end;
+  button{
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    color: #CF4D69 ;
+    cursor: pointer;
+  }
 }
 .glider-contain {
   width: 90%;

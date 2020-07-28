@@ -23,10 +23,8 @@
         z-index: 3; }
       .socialMedia .effect .buttons a.fb {
         background-color: #24292e; }
-      .socialMedia .effect .buttons a.insta {
-        background-color: #d7564b; }
       .socialMedia .effect .buttons a.in {
-        background-color: #0077b5;
+        background-color: #24292e;
         margin-right: 0; }
   .socialMedia .effect.jaques a {
     transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s; }

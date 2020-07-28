@@ -3,7 +3,7 @@ $basic-dark-color: #212121;
 $basic-light-color: #fff;
 $fb-color: #24292e;
 $insta: #d7564b;
-$in: #0077b5;
+$in: #24292e;
 $border-radius: 5px;
 $font-size: 15px;
 .socialMedia {
@@ -36,10 +36,7 @@ $font-size: 15px;
           &.fb {
             background-color: $fb-color;
           }
-          
-          &.insta {
-            background-color: $insta;
-          }
+
           
           &.in {
             background-color: $in;

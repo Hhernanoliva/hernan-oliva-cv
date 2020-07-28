@@ -7,40 +7,39 @@ footer {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   transition: 200ms ease-in-out; }
-  footer a {
-    font-size: 1rem;
-    color: #f2eff5;
-    text-shadow: 0.5px 0.5px 5px rgba(29, 44, 30, 0.63);
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
   footer .proyectos {
-    width: 50%;
-    background-color: #76BE8E;
-    padding: 5px 25px;
-    border-radius: 100px 100px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; }
-    footer .proyectos button {
-      cursor: pointer;
+    position: relative; }
+    footer .proyectos label {
+      font-size: 1rem;
+      color: #f2eff5;
+      background-color: #76BE8E;
+      text-shadow: 0.5px 0.5px 5px rgba(29, 44, 30, 0.63);
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
       border: none;
       outline: none;
-      background: none;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #f2eff5; }
+      background-color: #76BE8E;
+      padding: 10px 30px 30px 30px;
+      border-radius: 30px;
+      transition: 200ms ease-in-out; }
   footer .proyectos input {
-    width: 1px;
-    opacity: 1; }
+    opacity: 0; }
   footer .proyectos input:checked {
-    height: 40px;
     transition: 200ms ease-in-out; }
-  footer .contactame {
-    width: 50%;
-    background-color: #76BE8E;
-    padding: 5px 25px;
-    border-radius: 100px 100px 0px 0px; }
+
+.contactame {
+  font-size: 1rem;
+  color: #f2eff5;
+  background-color: #76BE8E;
+  text-shadow: 0.5px 0.5px 5px rgba(29, 44, 30, 0.63);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  background-color: #76BE8E;
+  padding: 10px 30px 30px 30px;
+  border-radius: 30px;
+  transition: 200ms ease-in-out;
+  overflow: hidden; }

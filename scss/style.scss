@@ -5,7 +5,6 @@
 @import './components/socialMedia.scss';
 @import './components/carrusel.scss';
 @import './components/sobreMi.scss';
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@ body {
     width: 100vw;
     
 }
-header#blur.activePopup{
+header#blur.activePopup {
     filter: blur(15px);
     transition: 3000ms ease;
     pointer-events: none;
@@ -43,8 +42,14 @@ particle {
     z-index: 1000;
   }
 
+.glider-dot.active {
+    background: #76BE8E;
+}
 
-
+#cv {
+    width: 100%;
+    background-color: transparent;
+}
    
     
  
